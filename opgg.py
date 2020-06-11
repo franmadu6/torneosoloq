@@ -1,5 +1,3 @@
-############################ VARIABLES ########################################
-
 
 server = "euw"
 players = [{"name": "cuenta1","account": "TitoMadu"},{"name": "cuenta4","account":"Madu on Bush"},{"name": "cuenta2","account": "AKISAMA"},
@@ -10,7 +8,7 @@ ranks = ["Challenger","Grandmaster","Master","Diamond 1","Diamond 2","Diamond 3"
 session = HTMLSession()
 
 def obtener_jugador():
-    printable_list = []
+	printable_list = []
 	for name in players:
 
 		page = 'https://' + server + '.op.gg/summoner/userName=' + name["account"].replace(" ","+")
