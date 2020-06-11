@@ -1,10 +1,10 @@
-from opgg import *
 import functools
 from requests_html import HTMLSession
 from bs4 import *
 from tabulate import tabulate
 from flask import Flask, redirect, render_template, request, session, url_for,abort
 import os
+from opgg import *
 
 app = Flask(__name__, template_folder="templates")
 
