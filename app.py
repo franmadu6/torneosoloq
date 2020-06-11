@@ -1,3 +1,4 @@
+from opgg import *
 import functools
 from requests_html import HTMLSession
 from bs4 import *
@@ -10,7 +11,8 @@ app = Flask(__name__, template_folder="templates")
 #---------pg de inicio
 @app.route('/',methods=["GET"])
 def inicio():
-    return render_template("index.html",error= None)
+    listaj=obtener_jugador()
+    return render_template("index.html",error= None,listaj=listaj)
 
 #----------pg pickem
 @app.route('/pickem',methods=["GET","POST"])
