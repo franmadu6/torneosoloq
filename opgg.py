@@ -1,10 +1,5 @@
 ############################ VARIABLES ########################################
-import functools
-from requests_html import HTMLSession
-from bs4 import *
-from tabulate import tabulate
-from flask import Flask, redirect, render_template, request, session, url_for,abort
-import os
+
 
 server = "euw"
 players = [{"name": "cuenta1","account": "TitoMadu"},{"name": "cuenta4","account":"Madu on Bush"},{"name": "cuenta2","account": "AKISAMA"},
