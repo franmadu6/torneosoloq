@@ -9,15 +9,15 @@
                             <tr>
                                 <th>RANKING</th>
                                 
-                                <th class="d-none d-md-block" >Nombre de invocador</th>
+                                <th>Nombre de invocador</th>
                                 
                                 <th>Elo</th>
                                 
                                 <th>PARTIDAS</th>
                                 
-                                <th class="none">GANADAS</th>
+                                <th class="d-none d-md-block" >GANADAS</th>
 
-                                <th class="none">PERDIDAS</th>
+                                <th class="d-none d-md-block" >PERDIDAS</th>
                               
                                 <th><span class="texto_responsive" data-desktoptext="WINRATE" data-tablettext="WR" data-phonetext="WR"></span></th>
                             </tr>
@@ -31,7 +31,7 @@
 			{% for datos in listaj -%}
                             <tr>
                                 <td>{{datos['pos']}}</td>
-                                <td class="d-none d-md-block" href="https://euw.op.gg/summoner/userName=+['name']">{{datos['name']}}</td>
+                                <td class="d-none d-md-block">{{datos['name']}}</td>
                                 <td>{{datos['league']}}</td>
                                 <td class="centro">{{datos['games']}}</td>
                                 <td class="none">{{datos['wins']}}</td>
