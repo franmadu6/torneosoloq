@@ -207,6 +207,10 @@ div#formulario {
     section#tabla td.none {
         display: none;
     }
+    
+    section#tabla td.menor {
+        font-size: 12px;
+    }
 
     section#tabla td.centro {
         text-align: center;

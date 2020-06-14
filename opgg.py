@@ -8,7 +8,7 @@ import os
 
 server = "euw"
 players = [{"name": "Madueño","account": "Koon Eduan"},{"name": "Manu Sanchez","account":"EseOGThueleaPDT"},{"name": "Juaki","account": "ElMessiDelRoneo"},
-	   {"name": "Pae","account": "AlanBritoDelgado"},{"name": "Juanca","account": "Titojuankaisback"},{"name": "Ale R","account": "SQCurry"},{"name": "Fernandito","account": "Tito Destru IRL"},{"name": "Hectroll","account": "iRfAnastasia"},{"name": "Roldan","account": "CICOCHALLENGE"},{"name": "Amigo de hectroll","account": "Pørnstar PT1"}]
+	   {"name": "Pae","account": "AlanBritoDelgado"},{"name": "Juanca","account": "Titojuankaisback"},{"name": "Ale R","account": "SQCurry"},{"name": "Fernandito","account": "Tito Destru IRL"},{"name": "Hectroll","account": "iRfAnastasia"},{"name": "Roldan","account": "CICOCHALLENGE"},{"name": "Tayson","account": "Pørnstar PT1"},{"name": "Oreja","account": "xØrewY"}]
 ################################################################################
 ranks = ["Challenger","Grandmaster","Master","Diamond 1","Diamond 2","Diamond 3","Diamond 4","Platinum 1","Platinum 2","Platinum 3","Platinum 4","Gold 1","Gold 2","Gold 3","Gold 4","Silver 1","Silver 2","Silver 3","Silver 4","Bronze 1","Bronze 2","Bronze 3","Bronze 4","Iron 1","Iron 2","Iron 3", "Iron 4","Unranked"]
 
