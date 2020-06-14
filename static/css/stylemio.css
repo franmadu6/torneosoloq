@@ -195,7 +195,7 @@ div#formulario {
 
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     .texto_responsive:before {
         content: attr(data-phonetext);
     }
@@ -210,6 +210,7 @@ div#formulario {
     
     section#tabla td.menor {
         font-size: 9px;
+        font-weight: bold;
     }
 
     section#tabla td.centro {
