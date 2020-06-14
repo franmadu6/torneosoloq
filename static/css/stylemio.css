@@ -200,15 +200,15 @@ div#formulario {
         content: attr(data-phonetext);
     }
 
-    th.none {
+    section#tabla th.none {
         display: none;
     }
 
-    td.none {
+    section#tabla td.none {
         display: none;
     }
 
-    td.centro {
+    section#tabla td.centro {
         text-align: center;
     }
     
