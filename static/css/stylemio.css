@@ -35,7 +35,7 @@ td {
 section#tabla {
     margin: 5px;
     background: -webkit-linear-gradient(rgb(6, 12, 34), #404445);
-    font-family: 'Comfortaa', cursive;
+    /*font-family: 'Comfortaa', cursive;*/
     border-radius: 10px;
 }
 
